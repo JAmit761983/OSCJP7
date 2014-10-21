@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_NilnsFkmEeSS7a6KUWiL4A" name="DefaultUML">
+    <eAnnotations xmi:id="_NpdEsFkmEeSS7a6KUWiL4A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_NpdrwFkmEeSS7a6KUWiL4A" source="codegen">
+        <details xmi:id="_NpdrwVkmEeSS7a6KUWiL4A" key="codegenDirectory" value="/OSCJP7_Pro/src"/>
+        <details xmi:id="_N1brMFkmEeSS7a6KUWiL4A" key="AssociatedSourceCode" value="/OSCJP7_Pro/src/org/amitjava/DefaultFacto/Circle.java;2633159600/1;/OSCJP7_Pro/src/org/amitjava/DefaultFacto/FactoryPatternDemo.java;4166617814/1;/OSCJP7_Pro/src/org/amitjava/DefaultFacto/Rectangle.java;2700729426/1;/OSCJP7_Pro/src/org/amitjava/DefaultFacto/Shape.java;3225454105/1;/OSCJP7_Pro/src/org/amitjava/DefaultFacto/ShapeFactory.java;3004348884/1;/OSCJP7_Pro/src/org/amitjava/DefaultFacto/Square.java;3430091279/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_NwVIwFkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_NwVv0FkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_NwVv0VkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_NwVv0lkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_NwVv01kmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_NwWW4FkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_NwWW4VkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_NwWW4lkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_NwW98FkmEeSS7a6KUWiL4A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NwFRIFkmEeSS7a6KUWiL4A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NwFRIVkmEeSS7a6KUWiL4A" name="amitjava">
+        <packagedElement xmi:type="uml:Package" xmi:id="_NwHGUFkmEeSS7a6KUWiL4A" name="DefaultFacto">
+          <packagedElement xmi:type="uml:Class" xmi:id="_NwT6oFkmEeSS7a6KUWiL4A" clientDependency="_Ny4GcFkmEeSS7a6KUWiL4A" name="Circle">
+            <interfaceRealization xmi:id="_Ny4GcFkmEeSS7a6KUWiL4A" client="_NwT6oFkmEeSS7a6KUWiL4A" supplier="_Nwe5wFkmEeSS7a6KUWiL4A" contract="_Nwe5wFkmEeSS7a6KUWiL4A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ny7JwFkmEeSS7a6KUWiL4A" name="draw" specification="_NwW98VkmEeSS7a6KUWiL4A">
+              <language>java</language>
+              <body>System.out.println(&quot;Inside Circle :: draw() method. &quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_NwW98VkmEeSS7a6KUWiL4A" name="draw" method="_Ny7JwFkmEeSS7a6KUWiL4A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NwZaMFkmEeSS7a6KUWiL4A" name="FactoryPatternDemo">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ny7w0FkmEeSS7a6KUWiL4A" name="main" specification="_NwaoUFkmEeSS7a6KUWiL4A">
+              <ownedParameter xmi:id="_Ny7w0VkmEeSS7a6KUWiL4A" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ny7w0lkmEeSS7a6KUWiL4A" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// TODO Auto-generated method stub
+
+		ShapeFactory shapeFactory = new ShapeFactory();
+		
+		Shape shape1 = shapeFactory.getShape(&quot;CIRCLE&quot;);
+		shape1.draw();
+		
+		Shape shape2 = shapeFactory.getShape(&quot;RECTANGLE&quot;);
+		shape2.draw();
+		
+		Shape shape3  = shapeFactory.getShape(&quot;SQUARE&quot;);
+		shape3.draw();
+
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_NwaoUFkmEeSS7a6KUWiL4A" name="main" isStatic="true" method="_Ny7w0FkmEeSS7a6KUWiL4A">
+              <ownedParameter xmi:id="_NwaoUVkmEeSS7a6KUWiL4A" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NwbPYFkmEeSS7a6KUWiL4A" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Nwb2cFkmEeSS7a6KUWiL4A" clientDependency="_Ny5UkFkmEeSS7a6KUWiL4A" name="Rectangle">
+            <interfaceRealization xmi:id="_Ny5UkFkmEeSS7a6KUWiL4A" client="_Nwb2cFkmEeSS7a6KUWiL4A" supplier="_Nwe5wFkmEeSS7a6KUWiL4A" contract="_Nwe5wFkmEeSS7a6KUWiL4A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ny8X4FkmEeSS7a6KUWiL4A" name="draw" specification="_NwcdgFkmEeSS7a6KUWiL4A">
+              <language>java</language>
+              <body>System.out.println(&quot;Inside Rectangle :: draw() Method&quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_NwcdgFkmEeSS7a6KUWiL4A" name="draw" method="_Ny8X4FkmEeSS7a6KUWiL4A"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Nwe5wFkmEeSS7a6KUWiL4A" name="Shape">
+            <ownedOperation xmi:id="_Nwfg0FkmEeSS7a6KUWiL4A" name="draw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NwgH4FkmEeSS7a6KUWiL4A" name="ShapeFactory">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ny8-8FkmEeSS7a6KUWiL4A" name="getShape" specification="_NwhWAFkmEeSS7a6KUWiL4A">
+              <ownedParameter xmi:id="_Ny8-8VkmEeSS7a6KUWiL4A" name="shapeType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Ny8-8lkmEeSS7a6KUWiL4A" type="_Nwe5wFkmEeSS7a6KUWiL4A" direction="return"/>
+              <language>java</language>
+              <body>if(shapeType == null)
+		{
+			return null;
+		}
+		if(shapeType.equalsIgnoreCase(&quot;CIRCLE&quot;))
+		{
+			return new Circle();
+		}
+		if(shapeType.equalsIgnoreCase(&quot;RECTABGLE&quot;))
+		{
+			return new Rectangle();
+		}
+		if(shapeType.equalsIgnoreCase(&quot;SQUARE&quot;))
+		{
+			return new Square();
+		}
+		return null;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_NwhWAFkmEeSS7a6KUWiL4A" name="getShape" method="_Ny8-8FkmEeSS7a6KUWiL4A">
+              <ownedParameter xmi:id="_NwhWAVkmEeSS7a6KUWiL4A" name="shapeType">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_Ny57oFkmEeSS7a6KUWiL4A" type="_Nwe5wFkmEeSS7a6KUWiL4A" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_NwjLMFkmEeSS7a6KUWiL4A" clientDependency="_Ny57oVkmEeSS7a6KUWiL4A" name="Square">
+            <interfaceRealization xmi:id="_Ny57oVkmEeSS7a6KUWiL4A" client="_NwjLMFkmEeSS7a6KUWiL4A" supplier="_Nwe5wFkmEeSS7a6KUWiL4A" contract="_Nwe5wFkmEeSS7a6KUWiL4A"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Ny8-81kmEeSS7a6KUWiL4A" name="draw" specification="_NwjyQFkmEeSS7a6KUWiL4A">
+              <language>java</language>
+              <body>System.out.println(&quot;Inside Square:: draw() method. &quot;);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_NwjyQFkmEeSS7a6KUWiL4A" name="draw" method="_Ny8-81kmEeSS7a6KUWiL4A"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Npe54FkmEeSS7a6KUWiL4A">
+      <eAnnotations xmi:id="_Npe54VkmEeSS7a6KUWiL4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Npfg8FkmEeSS7a6KUWiL4A" base_Package="_NilnsFkmEeSS7a6KUWiL4A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NwYMEFkmEeSS7a6KUWiL4A" base_Element="_NwW98VkmEeSS7a6KUWiL4A"/>
+  <UMLLabProfile:Annotations xmi:id="_NwYzIFkmEeSS7a6KUWiL4A" base_Element="_NwW98VkmEeSS7a6KUWiL4A">
+    <annotations xmi:id="_NwYzIVkmEeSS7a6KUWiL4A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NwdroFkmEeSS7a6KUWiL4A" base_Element="_NwcdgFkmEeSS7a6KUWiL4A"/>
+  <UMLLabProfile:Annotations xmi:id="_NwdroVkmEeSS7a6KUWiL4A" base_Element="_NwcdgFkmEeSS7a6KUWiL4A">
+    <annotations xmi:id="_NwdrolkmEeSS7a6KUWiL4A" name="Override"/>
+  </UMLLabProfile:Annotations>
+</xmi:XMI>
