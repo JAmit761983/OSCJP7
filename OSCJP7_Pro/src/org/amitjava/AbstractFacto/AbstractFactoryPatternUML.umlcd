@@ -3,47 +3,49 @@
   <modelElement href="AbstractFactoryPatternUML.uml#_TAmYMFnZEeSuyMmGo-mZxQ"/>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TJ7TUFnZEeSuyMmGo-mZxQ" sourceAnchor="0.0,26.0" targetAnchor="43.0,67.0" dashed="true" superClass="_TKG5gFnZEeSuyMmGo-mZxQ" subClass="_TJ9vkFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TF_OgFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I9tgVnZEeSuyMmGo-mZxQ" sourceX="-45" targetX="-159" targetY="251"/>
-    <bendpoints xmi:id="_3I9tglnZEeSuyMmGo-mZxQ" sourceX="-45" sourceY="-222" targetX="-159" targetY="29"/>
-    <bendpoints xmi:id="_3I9tg1nZEeSuyMmGo-mZxQ" sourceX="114" sourceY="-222" targetY="29"/>
+    <bendpoints xmi:id="_-5mZMFqSEeSP87l9ntzvig" sourceX="-45" targetX="-159" targetY="251"/>
+    <bendpoints xmi:id="_-5mZMVqSEeSP87l9ntzvig" sourceX="-45" sourceY="-222" targetX="-159" targetY="29"/>
+    <bendpoints xmi:id="_-5mZMlqSEeSP87l9ntzvig" sourceX="114" sourceY="-222" targetY="29"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKCBAFnZEeSuyMmGo-mZxQ" sourceAnchor="47.0,0.0" targetAnchor="49.0,67.0" dashed="true" superClass="_TKmowFnZEeSuyMmGo-mZxQ" subClass="_TKD2MFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGBDsFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I_isFnZEeSuyMmGo-mZxQ" sourceY="-26" targetX="-30" targetY="25"/>
-    <bendpoints xmi:id="_3I_isVnZEeSuyMmGo-mZxQ" sourceX="30" sourceY="-26" targetY="25"/>
+    <bendpoints xmi:id="_-5o1cFqSEeSP87l9ntzvig" sourceY="-26" targetX="-30" targetY="25"/>
+    <bendpoints xmi:id="_-5pcgFqSEeSP87l9ntzvig" sourceX="30" sourceY="-26" targetY="25"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKKj4FnZEeSuyMmGo-mZxQ" sourceAnchor="123.0,0.0" targetAnchor="119.0,71.0" superClass="_TJgckFnZEeSuyMmGo-mZxQ" subClass="_TKNnMFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGEHAFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3JAJwFnZEeSuyMmGo-mZxQ" sourceY="-22" targetX="-134" targetY="20"/>
-    <bendpoints xmi:id="_3JAJwVnZEeSuyMmGo-mZxQ" sourceX="134" sourceY="-22" targetY="20"/>
+    <visualProperties xmi:id="_-Zgj4FqSEeSP87l9ntzvig" position="-473.0,95.0"/>
+    <bendpoints xmi:id="_-5qDkFqSEeSP87l9ntzvig" sourceY="-22" targetX="-134" targetY="20"/>
+    <bendpoints xmi:id="_-5qDkVqSEeSP87l9ntzvig" sourceX="134" sourceY="-22" targetY="20"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKXYMFnZEeSuyMmGo-mZxQ" sourceAnchor="0.0,26.0" targetAnchor="43.0,67.0" dashed="true" superClass="_TKG5gFnZEeSuyMmGo-mZxQ" subClass="_TKYmUFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGGjQFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I9GcFnZEeSuyMmGo-mZxQ" sourceX="-15" targetX="-129" targetY="168"/>
-    <bendpoints xmi:id="_3I9GcVnZEeSuyMmGo-mZxQ" sourceX="-15" sourceY="-139" targetX="-129" targetY="29"/>
-    <bendpoints xmi:id="_3I9tgFnZEeSuyMmGo-mZxQ" sourceX="114" sourceY="-139" targetY="29"/>
+    <bendpoints xmi:id="_-5lLEFqSEeSP87l9ntzvig" sourceX="-15" targetX="-129" targetY="168"/>
+    <bendpoints xmi:id="_-5lLEVqSEeSP87l9ntzvig" sourceX="-15" sourceY="-139" targetX="-129" targetY="29"/>
+    <bendpoints xmi:id="_-5lLElqSEeSP87l9ntzvig" sourceX="114" sourceY="-139" targetY="29"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKc3wFnZEeSuyMmGo-mZxQ" sourceAnchor="0.0,28.0" targetAnchor="49.0,67.0" dashed="true" superClass="_TKmowFnZEeSuyMmGo-mZxQ" subClass="_TKeF4FnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGHxYFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I-7oFnZEeSuyMmGo-mZxQ" sourceX="-22" targetX="-104" targetY="156"/>
-    <bendpoints xmi:id="_3I-7oVnZEeSuyMmGo-mZxQ" sourceX="-22" sourceY="-131" targetX="-104" targetY="25"/>
-    <bendpoints xmi:id="_3I-7olnZEeSuyMmGo-mZxQ" sourceX="82" sourceY="-131" targetY="25"/>
+    <bendpoints xmi:id="_-5oOYFqSEeSP87l9ntzvig" sourceX="-22" targetX="-104" targetY="156"/>
+    <bendpoints xmi:id="_-5oOYVqSEeSP87l9ntzvig" sourceX="-22" sourceY="-131" targetX="-104" targetY="25"/>
+    <bendpoints xmi:id="_-5oOYlqSEeSP87l9ntzvig" sourceX="82" sourceY="-131" targetY="25"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKhJMFnZEeSuyMmGo-mZxQ" sourceAnchor="49.0,0.0" targetAnchor="43.0,67.0" dashed="true" superClass="_TKG5gFnZEeSuyMmGo-mZxQ" subClass="_TKi-YFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGJmkFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I8fYFnZEeSuyMmGo-mZxQ" sourceY="-29" targetX="-58" targetY="29"/>
-    <bendpoints xmi:id="_3I8fYVnZEeSuyMmGo-mZxQ" sourceX="58" sourceY="-29" targetY="29"/>
+    <bendpoints xmi:id="_-5j88FqSEeSP87l9ntzvig" sourceY="-29" targetX="-58" targetY="29"/>
+    <bendpoints xmi:id="_-5kkAFqSEeSP87l9ntzvig" sourceX="58" sourceY="-29" targetY="29"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TKrhQFnZEeSuyMmGo-mZxQ" sourceAnchor="144.0,0.0" targetAnchor="119.0,71.0" superClass="_TJgckFnZEeSuyMmGo-mZxQ" subClass="_TKvLoFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGMp4FnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I_islnZEeSuyMmGo-mZxQ" sourceY="-21" targetX="171" targetY="20"/>
-    <bendpoints xmi:id="_3I_is1nZEeSuyMmGo-mZxQ" sourceX="-171" sourceY="-21" targetY="20"/>
+    <visualProperties xmi:id="_-aYGkFqSEeSP87l9ntzvig" position="-473.0,95.0"/>
+    <bendpoints xmi:id="_-5qqoFqSEeSP87l9ntzvig" sourceY="-21" targetX="171" targetY="20"/>
+    <bendpoints xmi:id="_-5qqoVqSEeSP87l9ntzvig" sourceX="-171" sourceY="-21" targetY="20"/>
   </edges>
   <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_TK1SQFnZEeSuyMmGo-mZxQ" sourceAnchor="0.0,31.0" targetAnchor="49.0,67.0" dashed="true" superClass="_TKmowFnZEeSuyMmGo-mZxQ" subClass="_TK3HcFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TGN4AFnZEeSuyMmGo-mZxQ"/>
-    <bendpoints xmi:id="_3I-UkFnZEeSuyMmGo-mZxQ" sourceX="-45" targetX="-134" targetY="239"/>
-    <bendpoints xmi:id="_3I-UkVnZEeSuyMmGo-mZxQ" sourceX="-45" sourceY="-214" targetX="-134" targetY="25"/>
-    <bendpoints xmi:id="_3I-UklnZEeSuyMmGo-mZxQ" sourceX="89" sourceY="-214" targetY="25"/>
+    <bendpoints xmi:id="_-5nAQFqSEeSP87l9ntzvig" sourceX="-45" targetX="-134" targetY="239"/>
+    <bendpoints xmi:id="_-5nnUFqSEeSP87l9ntzvig" sourceX="-45" sourceY="-214" targetX="-134" targetY="25"/>
+    <bendpoints xmi:id="_-5nnUVqSEeSP87l9ntzvig" sourceX="89" sourceY="-214" targetY="25"/>
   </edges>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKi-YFnZEeSuyMmGo-mZxQ" name="Red" generalizations="_TKhJMFnZEeSuyMmGo-mZxQ">
     <modelElement href="AbstractFactoryPatternUML.uml#_TEVBoFnZEeSuyMmGo-mZxQ"/>
@@ -153,55 +155,6 @@
       <visibility xmi:id="_TKnP01nZEeSuyMmGo-mZxQ" label="+"/>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKvLoFnZEeSuyMmGo-mZxQ" name="ShapeFactory" generalizations="_TKrhQFnZEeSuyMmGo-mZxQ">
-    <modelElement href="AbstractFactoryPatternUML.uml#_TEeyoFnZEeSuyMmGo-mZxQ"/>
-    <visualProperties xmi:id="_TKvLoVnZEeSuyMmGo-mZxQ" position="-445.0,172.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_TKvLolnZEeSuyMmGo-mZxQ" label="+"/>
-    <operations xmi:id="_TKvLo1nZEeSuyMmGo-mZxQ" name="getShape">
-      <modelElement href="AbstractFactoryPatternUML.uml#_TEh18FnZEeSuyMmGo-mZxQ"/>
-      <stereotypes xmi:id="_TKvLpFnZEeSuyMmGo-mZxQ" name="LegacyStyledElement">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEkSMFnZEeSuyMmGo-mZxQ"/>
-      </stereotypes>
-      <stereotypes xmi:id="_TKvLpVnZEeSuyMmGo-mZxQ" name="Annotations">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEmHYFnZEeSuyMmGo-mZxQ"/>
-      </stereotypes>
-      <visibility xmi:id="_TKvLplnZEeSuyMmGo-mZxQ" label="+"/>
-      <outParameters xmi:id="_TKvLp1nZEeSuyMmGo-mZxQ">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TGK0sFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TKvLqFnZEeSuyMmGo-mZxQ" name="Shape">
-          <modelElement href="AbstractFactoryPatternUML.uml#_TEbvUFnZEeSuyMmGo-mZxQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_TKvLqVnZEeSuyMmGo-mZxQ" name="shapeType">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEidAFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TKvLqlnZEeSuyMmGo-mZxQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_TKvLq1nZEeSuyMmGo-mZxQ" name="getColor">
-      <modelElement href="AbstractFactoryPatternUML.uml#_TEojoFnZEeSuyMmGo-mZxQ"/>
-      <stereotypes xmi:id="_TKvLrFnZEeSuyMmGo-mZxQ" name="LegacyStyledElement">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEq_4FnZEeSuyMmGo-mZxQ"/>
-      </stereotypes>
-      <stereotypes xmi:id="_TKvLrVnZEeSuyMmGo-mZxQ" name="Annotations">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEs1EFnZEeSuyMmGo-mZxQ"/>
-      </stereotypes>
-      <visibility xmi:id="_TKvLrlnZEeSuyMmGo-mZxQ" label="~"/>
-      <outParameters xmi:id="_TKvLr1nZEeSuyMmGo-mZxQ">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TGMC0FnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TKvLsFnZEeSuyMmGo-mZxQ" name="Color">
-          <modelElement href="AbstractFactoryPatternUML.uml#_TDnP8FnZEeSuyMmGo-mZxQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_TKvLsVnZEeSuyMmGo-mZxQ" name="color">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TEpKsFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TKvLslnZEeSuyMmGo-mZxQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKUU4FnZEeSuyMmGo-mZxQ" name="FactoryProducer">
     <modelElement href="AbstractFactoryPatternUML.uml#_TD-cUFnZEeSuyMmGo-mZxQ"/>
     <visualProperties xmi:id="_TKUU4VnZEeSuyMmGo-mZxQ" position="-656.0,280.0" size="-1.0,-1.0"/>
@@ -218,43 +171,6 @@
       <parameters xmi:id="_TKUU51nZEeSuyMmGo-mZxQ" name="choice">
         <modelElement href="AbstractFactoryPatternUML.uml#_TEA4kVnZEeSuyMmGo-mZxQ"/>
         <type xmi:id="_TKUU6FnZEeSuyMmGo-mZxQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TJgckFnZEeSuyMmGo-mZxQ" name="AbstractFactory" abstractClass="true" subclassedBy="_TKKj4FnZEeSuyMmGo-mZxQ _TKrhQFnZEeSuyMmGo-mZxQ">
-    <modelElement href="AbstractFactoryPatternUML.uml#_TC43MFnZEeSuyMmGo-mZxQ"/>
-    <visualProperties xmi:id="_TJgckVnZEeSuyMmGo-mZxQ" position="-591.0,60.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_TJgcklnZEeSuyMmGo-mZxQ" label="+"/>
-    <operations xmi:id="_TJgck1nZEeSuyMmGo-mZxQ" abstractOperation="true" name="getColor">
-      <modelElement href="AbstractFactoryPatternUML.uml#_TDIu0FnZEeSuyMmGo-mZxQ"/>
-      <visibility xmi:id="_TJgclFnZEeSuyMmGo-mZxQ" label="~"/>
-      <outParameters xmi:id="_TJgclVnZEeSuyMmGo-mZxQ">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TF9ZUFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TJgcllnZEeSuyMmGo-mZxQ" name="Color">
-          <modelElement href="AbstractFactoryPatternUML.uml#_TDnP8FnZEeSuyMmGo-mZxQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_TJgcl1nZEeSuyMmGo-mZxQ" name="color">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TDIu0VnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TJgcmFnZEeSuyMmGo-mZxQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_TJhDoFnZEeSuyMmGo-mZxQ" abstractOperation="true" name="getShape">
-      <modelElement href="AbstractFactoryPatternUML.uml#_TDNAQFnZEeSuyMmGo-mZxQ"/>
-      <visibility xmi:id="_TJhDoVnZEeSuyMmGo-mZxQ" label="~"/>
-      <outParameters xmi:id="_TJhDolnZEeSuyMmGo-mZxQ">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TF-ncFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TJhDo1nZEeSuyMmGo-mZxQ" name="Shape">
-          <modelElement href="AbstractFactoryPatternUML.uml#_TEbvUFnZEeSuyMmGo-mZxQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_TJhDpFnZEeSuyMmGo-mZxQ" name="shape">
-        <modelElement href="AbstractFactoryPatternUML.uml#_TDNnUFnZEeSuyMmGo-mZxQ"/>
-        <type xmi:id="_TJhDpVnZEeSuyMmGo-mZxQ" name="String">
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </parameters>
@@ -319,6 +235,92 @@
       <parameters xmi:id="_TKNnQVnZEeSuyMmGo-mZxQ" name="shape">
         <modelElement href="AbstractFactoryPatternUML.uml#_TD0rUVnZEeSuyMmGo-mZxQ"/>
         <type xmi:id="_TKNnQlnZEeSuyMmGo-mZxQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKvLoFnZEeSuyMmGo-mZxQ" name="ShapeFactory" generalizations="_TKrhQFnZEeSuyMmGo-mZxQ">
+    <modelElement href="AbstractFactoryPatternUML.uml#_TEeyoFnZEeSuyMmGo-mZxQ"/>
+    <visualProperties xmi:id="_TKvLoVnZEeSuyMmGo-mZxQ" position="-445.0,172.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TKvLolnZEeSuyMmGo-mZxQ" label="+"/>
+    <operations xmi:id="_TKvLo1nZEeSuyMmGo-mZxQ" name="getShape">
+      <modelElement href="AbstractFactoryPatternUML.uml#_TEh18FnZEeSuyMmGo-mZxQ"/>
+      <stereotypes xmi:id="_TKvLpFnZEeSuyMmGo-mZxQ" name="LegacyStyledElement">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEkSMFnZEeSuyMmGo-mZxQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TKvLpVnZEeSuyMmGo-mZxQ" name="Annotations">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEmHYFnZEeSuyMmGo-mZxQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TKvLplnZEeSuyMmGo-mZxQ" label="+"/>
+      <outParameters xmi:id="_TKvLp1nZEeSuyMmGo-mZxQ">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TGK0sFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TKvLqFnZEeSuyMmGo-mZxQ" name="Shape">
+          <modelElement href="AbstractFactoryPatternUML.uml#_TEbvUFnZEeSuyMmGo-mZxQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKvLqVnZEeSuyMmGo-mZxQ" name="shapeType">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEidAFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TKvLqlnZEeSuyMmGo-mZxQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TKvLq1nZEeSuyMmGo-mZxQ" name="getColor">
+      <modelElement href="AbstractFactoryPatternUML.uml#_TEojoFnZEeSuyMmGo-mZxQ"/>
+      <stereotypes xmi:id="_TKvLrFnZEeSuyMmGo-mZxQ" name="LegacyStyledElement">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEq_4FnZEeSuyMmGo-mZxQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TKvLrVnZEeSuyMmGo-mZxQ" name="Annotations">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEs1EFnZEeSuyMmGo-mZxQ"/>
+      </stereotypes>
+      <visibility xmi:id="_TKvLrlnZEeSuyMmGo-mZxQ" label="~"/>
+      <outParameters xmi:id="_TKvLr1nZEeSuyMmGo-mZxQ">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TGMC0FnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TKvLsFnZEeSuyMmGo-mZxQ" name="Color">
+          <modelElement href="AbstractFactoryPatternUML.uml#_TDnP8FnZEeSuyMmGo-mZxQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKvLsVnZEeSuyMmGo-mZxQ" name="color">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TEpKsFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TKvLslnZEeSuyMmGo-mZxQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TJgckFnZEeSuyMmGo-mZxQ" name="AbstractFactory" abstractClass="true" subclassedBy="_TKKj4FnZEeSuyMmGo-mZxQ _TKrhQFnZEeSuyMmGo-mZxQ">
+    <modelElement href="AbstractFactoryPatternUML.uml#_TC43MFnZEeSuyMmGo-mZxQ"/>
+    <visualProperties xmi:id="_TJgckVnZEeSuyMmGo-mZxQ" position="-591.0,60.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TJgcklnZEeSuyMmGo-mZxQ" label="+"/>
+    <operations xmi:id="_TJgck1nZEeSuyMmGo-mZxQ" abstractOperation="true" name="getColor">
+      <modelElement href="AbstractFactoryPatternUML.uml#_TDIu0FnZEeSuyMmGo-mZxQ"/>
+      <visibility xmi:id="_TJgclFnZEeSuyMmGo-mZxQ" label="~"/>
+      <outParameters xmi:id="_TJgclVnZEeSuyMmGo-mZxQ">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TF9ZUFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TJgcllnZEeSuyMmGo-mZxQ" name="Color">
+          <modelElement href="AbstractFactoryPatternUML.uml#_TDnP8FnZEeSuyMmGo-mZxQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TJgcl1nZEeSuyMmGo-mZxQ" name="color">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TDIu0VnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TJgcmFnZEeSuyMmGo-mZxQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TJhDoFnZEeSuyMmGo-mZxQ" abstractOperation="true" name="getShape">
+      <modelElement href="AbstractFactoryPatternUML.uml#_TDNAQFnZEeSuyMmGo-mZxQ"/>
+      <visibility xmi:id="_TJhDoVnZEeSuyMmGo-mZxQ" label="~"/>
+      <outParameters xmi:id="_TJhDolnZEeSuyMmGo-mZxQ">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TF-ncFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TJhDo1nZEeSuyMmGo-mZxQ" name="Shape">
+          <modelElement href="AbstractFactoryPatternUML.uml#_TEbvUFnZEeSuyMmGo-mZxQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TJhDpFnZEeSuyMmGo-mZxQ" name="shape">
+        <modelElement href="AbstractFactoryPatternUML.uml#_TDNnUFnZEeSuyMmGo-mZxQ"/>
+        <type xmi:id="_TJhDpVnZEeSuyMmGo-mZxQ" name="String">
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </parameters>

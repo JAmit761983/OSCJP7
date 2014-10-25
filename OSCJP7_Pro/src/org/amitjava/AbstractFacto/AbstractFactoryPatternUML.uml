@@ -4,7 +4,7 @@
     <eAnnotations xmi:id="_SmG0kFnZEeSuyMmGo-mZxQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_SmG0kVnZEeSuyMmGo-mZxQ" source="codegen">
         <details xmi:id="_SmG0klnZEeSuyMmGo-mZxQ" key="codegenDirectory" value="/OSCJP7_Pro/src"/>
-        <details xmi:id="_TJDwoFnZEeSuyMmGo-mZxQ" key="AssociatedSourceCode" value="/OSCJP7_Pro/src/org/amitjava/AbstractFacto/AbstractFactory.java;3259622409/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/AbstractFactoryPatternDemo.java;62935462/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Blue.java;1666318509/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Circle.java;1198020945/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Color.java;3055624272/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/ColorFactory.java;4137957110/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/FactoryProducer.java;4137282508/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Green.java;312679709/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Rectangle.java;2650462454/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Red.java;1219139648/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Shape.java;1237798220/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/ShapeFactory.java;2038247103/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Square.java;2444316350/1;"/>
+        <details xmi:id="_TJDwoFnZEeSuyMmGo-mZxQ" key="AssociatedSourceCode" value="/OSCJP7_Pro/src/org/amitjava/AbstractFacto/AbstractFactory.java;3955108063/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/AbstractFactoryPatternDemo.java;62935462/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Blue.java;1666318509/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Circle.java;1198020945/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Color.java;3055624272/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/ColorFactory.java;4087246321/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/FactoryProducer.java;2251469936/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Green.java;312679709/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Rectangle.java;2650462454/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Red.java;1219139648/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Shape.java;1237798220/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/ShapeFactory.java;226979177/1;/OSCJP7_Pro/src/org/amitjava/AbstractFacto/Square.java;2444316350/1;"/>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_TDEdYFnZEeSuyMmGo-mZxQ">
@@ -119,23 +119,26 @@
               <ownedParameter xmi:id="_TGZeMFnZEeSuyMmGo-mZxQ" name="color">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_TGZeMVnZEeSuyMmGo-mZxQ" type="_TDnP8FnZEeSuyMmGo-mZxQ" direction="return"/>
+              <ownedParameter xmi:id="_TGZeMVnZEeSuyMmGo-mZxQ" type="_TDnP8FnZEeSuyMmGo-mZxQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
-              <body>if(color==null){
+              <body>if(color==null)
+						{
 			return null;
-		}
+						}
 		if(color.equalsIgnoreCase(&quot;RED&quot;))
-		{
-		return new Red();
-		}
+						{
+						return new Red();
+						}
 		else if(color.equalsIgnoreCase(&quot;GREEN&quot;))
-				{
-			return new Green();
-				}
+						{
+						return new Green();
+						}
 		else if(color.equalsIgnoreCase(&quot;BLUE&quot;))
-		{
-			return new Blue();
-		}
+						{
+						return new Blue();
+						}
 		return null;
 	</body>
             </ownedBehavior>
@@ -143,7 +146,9 @@
               <ownedParameter xmi:id="_TGaFQVnZEeSuyMmGo-mZxQ" name="shape">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_TGaFQlnZEeSuyMmGo-mZxQ" type="_TEbvUFnZEeSuyMmGo-mZxQ" direction="return"/>
+              <ownedParameter xmi:id="_TGaFQlnZEeSuyMmGo-mZxQ" type="_TEbvUFnZEeSuyMmGo-mZxQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>return null;
 	</body>
@@ -166,7 +171,9 @@
               <ownedParameter xmi:id="_TGbTYVnZEeSuyMmGo-mZxQ" name="choice">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_TGbTYlnZEeSuyMmGo-mZxQ" type="_TC43MFnZEeSuyMmGo-mZxQ" direction="return"/>
+              <ownedParameter xmi:id="_TGbTYlnZEeSuyMmGo-mZxQ" type="_TC43MFnZEeSuyMmGo-mZxQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>if(choice.equalsIgnoreCase(&quot;SHAPE&quot;))
 		{
@@ -222,7 +229,9 @@
               <ownedParameter xmi:id="_TGeWsVnZEeSuyMmGo-mZxQ" name="shapeType">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_TGeWslnZEeSuyMmGo-mZxQ" type="_TEbvUFnZEeSuyMmGo-mZxQ" direction="return"/>
+              <ownedParameter xmi:id="_TGeWslnZEeSuyMmGo-mZxQ" type="_TEbvUFnZEeSuyMmGo-mZxQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>if(shapeType == null)
 		{
@@ -244,7 +253,9 @@
               <ownedParameter xmi:id="_TGfk0VnZEeSuyMmGo-mZxQ" name="color">
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
-              <ownedParameter xmi:id="_TGfk0lnZEeSuyMmGo-mZxQ" type="_TDnP8FnZEeSuyMmGo-mZxQ" direction="return"/>
+              <ownedParameter xmi:id="_TGfk0lnZEeSuyMmGo-mZxQ" type="_TDnP8FnZEeSuyMmGo-mZxQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>return null;
 	</body>

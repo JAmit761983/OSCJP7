@@ -1,3 +1,7 @@
+
+//Create a Factory generator/producer class to get factories by passing an information such as Shape or Color
+
+
 package org.amitjava.AbstractFacto;
 
 public class FactoryProducer {

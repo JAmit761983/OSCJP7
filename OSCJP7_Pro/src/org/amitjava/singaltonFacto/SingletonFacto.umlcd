@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_jBzK4FqdEeSP87l9ntzvig">
+  <modelElement href="SingletonFacto.uml#_jdqAcVqdEeSP87l9ntzvig"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_mCHhQFqdEeSP87l9ntzvig" name="SingletonFacto">
+    <modelElement href="SingletonFacto.uml#_jAgxcFqdEeSP87l9ntzvig"/>
+    <visualProperties xmi:id="_mCIIUFqdEeSP87l9ntzvig" position="208.0,157.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mDG_wFqdEeSP87l9ntzvig" name="SingletonPatternDemo">
+    <modelElement href="SingletonFacto.uml#_jjp6wFqdEeSP87l9ntzvig"/>
+    <visualProperties xmi:id="_mDG_wVqdEeSP87l9ntzvig" position="211.0,42.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mDG_wlqdEeSP87l9ntzvig" label="+"/>
+    <operations xmi:id="_mDG_w1qdEeSP87l9ntzvig" name="main" staticOperation="true">
+      <modelElement href="SingletonFacto.uml#_jjuMMFqdEeSP87l9ntzvig"/>
+      <visibility xmi:id="_mDG_xFqdEeSP87l9ntzvig" label="+"/>
+      <parameters xmi:id="_mDG_xVqdEeSP87l9ntzvig" name="args">
+        <modelElement href="SingletonFacto.uml#_jjuzQFqdEeSP87l9ntzvig"/>
+        <type xmi:id="_mDG_xlqdEeSP87l9ntzvig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

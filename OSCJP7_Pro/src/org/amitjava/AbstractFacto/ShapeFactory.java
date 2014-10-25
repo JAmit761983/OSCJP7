@@ -1,3 +1,8 @@
+
+//Create Factory classes extending AbstractFactory to generate object of concrete class based on given information.
+
+
+
 package org.amitjava.AbstractFacto;
 
 public class ShapeFactory  extends AbstractFactory
