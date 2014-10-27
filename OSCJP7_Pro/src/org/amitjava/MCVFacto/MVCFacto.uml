@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_SI2xkF3vEeSLLqL_GZocFQ" name="MVCFacto">
+    <eAnnotations xmi:id="_SYa3kF3vEeSLLqL_GZocFQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_SYa3kV3vEeSLLqL_GZocFQ" source="codegen">
+        <details xmi:id="_SYa3kl3vEeSLLqL_GZocFQ" key="codegenDirectory" value="/OSCJP7_Pro/src"/>
+        <details xmi:id="_TDpl4F3vEeSLLqL_GZocFQ" key="AssociatedSourceCode" value="/OSCJP7_Pro/src/org/amitjava/MCVFacto/MVCPatternDemo.java;2372919431/1;/OSCJP7_Pro/src/org/amitjava/MCVFacto/Student.java;2971004469/1;/OSCJP7_Pro/src/org/amitjava/MCVFacto/StudentController.java;3568874064/1;/OSCJP7_Pro/src/org/amitjava/MCVFacto/StudentView.java;3486654449/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_S_O_8F3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_S_O_8V3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_S_PnAF3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_S_PnAV3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_S_PnAl3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_S_PnA13vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_S_QOEF3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_S_QOEV3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_S_Q1IF3vEeSLLqL_GZocFQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_S9yOcF3vEeSLLqL_GZocFQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_S9y1gF3vEeSLLqL_GZocFQ" name="amitjava">
+        <packagedElement xmi:type="uml:Package" xmi:id="_S-VBAF3vEeSLLqL_GZocFQ" name="MCVFacto">
+          <packagedElement xmi:type="uml:Class" xmi:id="_S_EA0F3vEeSLLqL_GZocFQ" name="MVCPatternDemo">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TA-FUF3vEeSLLqL_GZocFQ" name="main" specification="_S_RcMF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TA-FUV3vEeSLLqL_GZocFQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TA-FUl3vEeSLLqL_GZocFQ" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>//fetch student record based on his roll no from the database
+		Student model = retriveStudentFromDatabase();
+		
+		 //Create a view : to write student details on console
+		StudentView view = new StudentView();
+		
+		StudentController controller = new StudentController(model,view);
+		
+		controller.updateView();
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TA-sYF3vEeSLLqL_GZocFQ" name="retriveStudentFromDatabase" specification="_S_UfgF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TA-sYV3vEeSLLqL_GZocFQ" type="_S_YJ4F3vEeSLLqL_GZocFQ" direction="return"/>
+              <language>java</language>
+              <body>Student student = new Student();
+		      student.setName(&quot;Robert&quot;);
+		      student.setRollNo(&quot;10&quot;);
+		      return student;
+		   </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_S_RcMF3vEeSLLqL_GZocFQ" name="main" isStatic="true" method="_TA-FUF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_SDQF3vEeSLLqL_GZocFQ" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S_TRYF3vEeSLLqL_GZocFQ" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_S_UfgF3vEeSLLqL_GZocFQ" name="retriveStudentFromDatabase" visibility="private" isStatic="true" method="_TA-sYF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TAXoYF3vEeSLLqL_GZocFQ" type="_S_YJ4F3vEeSLLqL_GZocFQ" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_S_YJ4F3vEeSLLqL_GZocFQ" name="Student">
+            <ownedAttribute xmi:id="_TAqjUF3vEeSLLqL_GZocFQ" name="rollNo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_TAsYgF3vEeSLLqL_GZocFQ" name="name">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_S_eQgF3vEeSLLqL_GZocFQ" name="StudentController">
+            <ownedAttribute xmi:id="_TAuNsF3vEeSLLqL_GZocFQ" name="model" visibility="private" type="_S_YJ4F3vEeSLLqL_GZocFQ" association="_TBPyIF3vEeSLLqL_GZocFQ"/>
+            <ownedAttribute xmi:id="_TAwp8F3vEeSLLqL_GZocFQ" name="view" visibility="private" type="_S_4gMF3vEeSLLqL_GZocFQ" association="_TBTcgV3vEeSLLqL_GZocFQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBAhkF3vEeSLLqL_GZocFQ" name="StudentController" specification="_TAdH8F3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBAhkV3vEeSLLqL_GZocFQ" name="model" type="_S_YJ4F3vEeSLLqL_GZocFQ"/>
+              <ownedParameter xmi:id="_TBAhkl3vEeSLLqL_GZocFQ" name="view" type="_S_4gMF3vEeSLLqL_GZocFQ"/>
+              <ownedParameter xmi:id="_TBAhk13vEeSLLqL_GZocFQ" type="_S_eQgF3vEeSLLqL_GZocFQ" direction="return"/>
+              <language>java</language>
+              <body>this.model = model;
+		this.view = view;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBBIoF3vEeSLLqL_GZocFQ" name="setStudentName" specification="_S_k-MF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBBIoV3vEeSLLqL_GZocFQ" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>model.setName(name);		
+	   </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBCWwF3vEeSLLqL_GZocFQ" name="getStudentName" specification="_S_mzYF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBCWwV3vEeSLLqL_GZocFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return model.getName();		
+	   </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBC90F3vEeSLLqL_GZocFQ" name="setStudentRollNo" specification="_S_p2sF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBC90V3vEeSLLqL_GZocFQ" name="rollNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>model.setRollNo(rollNo);		
+	   </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBEL8F3vEeSLLqL_GZocFQ" name="getStudentRollNo" specification="_S_rr4F3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBEL8V3vEeSLLqL_GZocFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return model.getRollNo();		
+	   </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBEzAF3vEeSLLqL_GZocFQ" name="updateView" specification="_S_s6AF3vEeSLLqL_GZocFQ">
+              <language>java</language>
+              <body>view.printStudentDetails(model.getName(), model.getRollNo());
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_S_k-MF3vEeSLLqL_GZocFQ" name="setStudentName" method="_TBBIoF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_llQF3vEeSLLqL_GZocFQ" name="name">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_S_mzYF3vEeSLLqL_GZocFQ" name="getStudentName" method="_TBCWwF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_oBgF3vEeSLLqL_GZocFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_S_p2sF3vEeSLLqL_GZocFQ" name="setStudentRollNo" method="_TBC90F3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_qdwF3vEeSLLqL_GZocFQ" name="rollNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_S_rr4F3vEeSLLqL_GZocFQ" name="getStudentRollNo" method="_TBEL8F3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_sS8F3vEeSLLqL_GZocFQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_S_s6AF3vEeSLLqL_GZocFQ" name="updateView" method="_TBEzAF3vEeSLLqL_GZocFQ"/>
+            <ownedOperation xmi:id="_TAdH8F3vEeSLLqL_GZocFQ" name="StudentController" method="_TBAhkF3vEeSLLqL_GZocFQ">
+              <eAnnotations xmi:id="_TAeWEF3vEeSLLqL_GZocFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_TAeWEV3vEeSLLqL_GZocFQ" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_TAdH8V3vEeSLLqL_GZocFQ" name="model" type="_S_YJ4F3vEeSLLqL_GZocFQ"/>
+              <ownedParameter xmi:id="_TAdvAF3vEeSLLqL_GZocFQ" name="view" type="_S_4gMF3vEeSLLqL_GZocFQ"/>
+              <ownedParameter xmi:id="_TAeWEl3vEeSLLqL_GZocFQ" type="_S_eQgF3vEeSLLqL_GZocFQ" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_S_4gMF3vEeSLLqL_GZocFQ" name="StudentView">
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TBHPQF3vEeSLLqL_GZocFQ" name="printStudentDetails" specification="_S_6VYF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_TBH2UF3vEeSLLqL_GZocFQ" name="studentName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_TBH2UV3vEeSLLqL_GZocFQ" name="studentRollNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>System.out.println(&quot;Student : &quot;);
+		System.out.println(&quot;Name &quot; + studentName);
+		System.out.println(&quot;Roll No : &quot; +studentRollNo);
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_S_6VYF3vEeSLLqL_GZocFQ" name="printStudentDetails" method="_TBHPQF3vEeSLLqL_GZocFQ">
+              <ownedParameter xmi:id="_S_68cF3vEeSLLqL_GZocFQ" name="studentName">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_S_68cV3vEeSLLqL_GZocFQ" name="studentRollNo">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_TBPyIF3vEeSLLqL_GZocFQ" name="" memberEnd="_TBPyIV3vEeSLLqL_GZocFQ _TAuNsF3vEeSLLqL_GZocFQ">
+            <ownedEnd xmi:id="_TBPyIV3vEeSLLqL_GZocFQ" name="" type="_S_eQgF3vEeSLLqL_GZocFQ" association="_TBPyIF3vEeSLLqL_GZocFQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_TBTcgV3vEeSLLqL_GZocFQ" name="" memberEnd="_TBTcgl3vEeSLLqL_GZocFQ _TAwp8F3vEeSLLqL_GZocFQ">
+            <ownedEnd xmi:id="_TBTcgl3vEeSLLqL_GZocFQ" name="" type="_S_eQgF3vEeSLLqL_GZocFQ" association="_TBTcgV3vEeSLLqL_GZocFQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_SYd64F3vEeSLLqL_GZocFQ">
+      <eAnnotations xmi:id="_SZGNAF3vEeSLLqL_GZocFQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_SZcyUF3vEeSLLqL_GZocFQ" base_Package="_SI2xkF3vEeSLLqL_GZocFQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TAvb0F3vEeSLLqL_GZocFQ" base_Element="_TAuNsF3vEeSLLqL_GZocFQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TAx4EF3vEeSLLqL_GZocFQ" base_Element="_TAwp8F3vEeSLLqL_GZocFQ"/>
+  <UMLLabProfile:Reference xmi:id="_TBTcgF3vEeSLLqL_GZocFQ" base_Element="_TBPyIF3vEeSLLqL_GZocFQ"/>
+  <UMLLabProfile:Reference xmi:id="_TBV4wF3vEeSLLqL_GZocFQ" base_Element="_TBTcgV3vEeSLLqL_GZocFQ"/>
+</xmi:XMI>
