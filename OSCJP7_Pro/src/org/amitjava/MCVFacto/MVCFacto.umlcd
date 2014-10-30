@@ -1,125 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_SNuqgF3vEeSLLqL_GZocFQ">
   <modelElement href="MVCFacto.uml#_S-VBAF3vEeSLLqL_GZocFQ"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TE90gF3vEeSLLqL_GZocFQ" sourceAnchor="15.0,0.0" targetAnchor="97.0,71.0" target="_TE0DgF3vEeSLLqL_GZocFQ" source="_TFHlgF3vEeSLLqL_GZocFQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TE90gF3vEeSLLqL_GZocFQ" sourceAnchor="15.0,0.0" targetAnchor="113.0,71.0" target="_TE0DgF3vEeSLLqL_GZocFQ" source="_TFHlgF3vEeSLLqL_GZocFQ">
     <modelElement href="MVCFacto.uml#_TBPyIF3vEeSLLqL_GZocFQ"/>
     <stereotypes xmi:id="_TFBe4F3vEeSLLqL_GZocFQ" name="Reference">
       <modelElement href="MVCFacto.uml#_TBTcgF3vEeSLLqL_GZocFQ"/>
     </stereotypes>
     <nameVisual xmi:id="_TE_psF3vEeSLLqL_GZocFQ" text="">
-      <visualProperties xmi:id="_TWSOAF3vEeSLLqL_GZocFQ" position="2.0,21.428571428571445"/>
+      <visualProperties xmi:id="_TWSOAF3vEeSLLqL_GZocFQ" position="-46.0,15.0"/>
     </nameVisual>
     <sourceRole xmi:id="_TFA30F3vEeSLLqL_GZocFQ" aggregationKind="NONE" name="">
       <modelElement href="MVCFacto.uml#_TBPyIV3vEeSLLqL_GZocFQ"/>
-      <visualProperties xmi:id="_TWRm8F3vEeSLLqL_GZocFQ" position="2.0,-78.66666666666666"/>
+      <visualProperties xmi:id="_TWRm8F3vEeSLLqL_GZocFQ" position="2.0,-64.0"/>
       <visibility xmi:id="_TFEiMV3vEeSLLqL_GZocFQ" label="+"/>
       <cardinality xmi:id="_TFEiMF3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_TFA30V3vEeSLLqL_GZocFQ" aggregationKind="NONE" name="model" navigable="true">
       <modelElement href="MVCFacto.uml#_TAuNsF3vEeSLLqL_GZocFQ"/>
-      <visualProperties xmi:id="_TWS1EF3vEeSLLqL_GZocFQ" position="-52.0,19.333333333333343"/>
+      <visualProperties xmi:id="_TWS1EF3vEeSLLqL_GZocFQ" position="-52.0,22.0"/>
+      <stereotypes xmi:id="_H-ZVAF55EeS44IawLKca5A" name="LegacyStyledElement">
+        <modelElement href="MVCFacto.uml#_TAvb0F3vEeSLLqL_GZocFQ"/>
+      </stereotypes>
       <visibility xmi:id="_TFFJQV3vEeSLLqL_GZocFQ" label="-"/>
       <cardinality xmi:id="_TFFJQF3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TFG-cF3vEeSLLqL_GZocFQ" sourceAnchor="449.0,0.0" targetAnchor="114.0,52.0" target="_TG2D0F3vEeSLLqL_GZocFQ" source="_TFHlgF3vEeSLLqL_GZocFQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_TFG-cF3vEeSLLqL_GZocFQ" sourceAnchor="279.0,0.0" targetAnchor="206.0,67.0" target="_TG2D0F3vEeSLLqL_GZocFQ" source="_TFHlgF3vEeSLLqL_GZocFQ">
     <modelElement href="MVCFacto.uml#_TBTcgV3vEeSLLqL_GZocFQ"/>
     <stereotypes xmi:id="_TFG-cV3vEeSLLqL_GZocFQ" name="Reference">
       <modelElement href="MVCFacto.uml#_TBV4wF3vEeSLLqL_GZocFQ"/>
     </stereotypes>
     <nameVisual xmi:id="_TFG-cl3vEeSLLqL_GZocFQ" text="">
-      <visualProperties xmi:id="_TWUqQF3vEeSLLqL_GZocFQ" position="2.0,-12.0"/>
+      <visualProperties xmi:id="_TWUqQF3vEeSLLqL_GZocFQ" position="-45.5,-29.5"/>
     </nameVisual>
     <sourceRole xmi:id="_TFG-c13vEeSLLqL_GZocFQ" aggregationKind="NONE" name="">
       <modelElement href="MVCFacto.uml#_TBTcgl3vEeSLLqL_GZocFQ"/>
-      <visualProperties xmi:id="_TWUDMF3vEeSLLqL_GZocFQ" position="46.0,-37.0"/>
+      <visualProperties xmi:id="_TWUDMF3vEeSLLqL_GZocFQ" position="-17.5,-63.333333333333314"/>
       <visibility xmi:id="_TFG-dF3vEeSLLqL_GZocFQ" label="+"/>
       <cardinality xmi:id="_TFG-dV3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_TFG-dl3vEeSLLqL_GZocFQ" aggregationKind="NONE" name="view" navigable="true">
       <modelElement href="MVCFacto.uml#_TAwp8F3vEeSLLqL_GZocFQ"/>
-      <visualProperties xmi:id="_TWVRUF3vEeSLLqL_GZocFQ" position="-42.0,1.3333333333333144"/>
+      <visualProperties xmi:id="_TWVRUF3vEeSLLqL_GZocFQ" position="2.5,43.666666666666686"/>
+      <stereotypes xmi:id="_H-bxQF55EeS44IawLKca5A" name="LegacyStyledElement">
+        <modelElement href="MVCFacto.uml#_TAx4EF3vEeSLLqL_GZocFQ"/>
+      </stereotypes>
       <visibility xmi:id="_TFG-d13vEeSLLqL_GZocFQ" label="-"/>
       <cardinality xmi:id="_TFG-eF3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TE0DgF3vEeSLLqL_GZocFQ" name="Student" associationsIn="_TE90gF3vEeSLLqL_GZocFQ">
-    <modelElement href="MVCFacto.uml#_S_YJ4F3vEeSLLqL_GZocFQ"/>
-    <visualProperties xmi:id="_TE0DgV3vEeSLLqL_GZocFQ" position="-237.0,56.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_TE0Dgl3vEeSLLqL_GZocFQ" label="+"/>
-    <attributes xmi:id="_TE0qkF3vEeSLLqL_GZocFQ" name="rollNo">
-      <modelElement href="MVCFacto.uml#_TAqjUF3vEeSLLqL_GZocFQ"/>
-      <visibility xmi:id="_TE0qkV3vEeSLLqL_GZocFQ" label="+"/>
-      <cardinality xmi:id="_TE0qkl3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
-      <type xmi:id="_TE0qk13vEeSLLqL_GZocFQ" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_TE0qlF3vEeSLLqL_GZocFQ" name="name">
-      <modelElement href="MVCFacto.uml#_TAsYgF3vEeSLLqL_GZocFQ"/>
-      <visibility xmi:id="_TE0qlV3vEeSLLqL_GZocFQ" label="+"/>
-      <cardinality xmi:id="_TE0qll3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
-      <type xmi:id="_TE0ql13vEeSLLqL_GZocFQ" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TEGR0F3vEeSLLqL_GZocFQ" name="MVCPatternDemo">
-    <modelElement href="MVCFacto.uml#_S_EA0F3vEeSLLqL_GZocFQ"/>
-    <visualProperties xmi:id="_TEGR0V3vEeSLLqL_GZocFQ" position="-71.0,44.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_TEGR0l3vEeSLLqL_GZocFQ" label="+"/>
-    <operations xmi:id="_TEGR013vEeSLLqL_GZocFQ" name="main" staticOperation="true">
-      <modelElement href="MVCFacto.uml#_S_RcMF3vEeSLLqL_GZocFQ"/>
-      <visibility xmi:id="_TEG44F3vEeSLLqL_GZocFQ" label="+"/>
-      <parameters xmi:id="_TEG44V3vEeSLLqL_GZocFQ" name="args">
-        <modelElement href="MVCFacto.uml#_S_SDQF3vEeSLLqL_GZocFQ"/>
-        <type xmi:id="_TEG44l3vEeSLLqL_GZocFQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_TEG4413vEeSLLqL_GZocFQ" name="retriveStudentFromDatabase" staticOperation="true">
-      <modelElement href="MVCFacto.uml#_S_UfgF3vEeSLLqL_GZocFQ"/>
-      <visibility xmi:id="_TEG45F3vEeSLLqL_GZocFQ" label="-"/>
-      <outParameters xmi:id="_TEG45V3vEeSLLqL_GZocFQ">
-        <modelElement href="MVCFacto.uml#_TAXoYF3vEeSLLqL_GZocFQ"/>
-        <type xmi:id="_TEG45l3vEeSLLqL_GZocFQ" name="Student">
-          <modelElement href="MVCFacto.uml#_S_YJ4F3vEeSLLqL_GZocFQ"/>
-        </type>
-      </outParameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TG2D0F3vEeSLLqL_GZocFQ" name="StudentView" associationsIn="_TFG-cF3vEeSLLqL_GZocFQ">
-    <modelElement href="MVCFacto.uml#_S_4gMF3vEeSLLqL_GZocFQ"/>
-    <visualProperties xmi:id="_TG2D0V3vEeSLLqL_GZocFQ" position="180.0,129.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_TG2D0l3vEeSLLqL_GZocFQ" label="+"/>
-    <operations xmi:id="_TG2D013vEeSLLqL_GZocFQ" name="printStudentDetails">
-      <modelElement href="MVCFacto.uml#_S_6VYF3vEeSLLqL_GZocFQ"/>
-      <visibility xmi:id="_TG2D1F3vEeSLLqL_GZocFQ" label="+"/>
-      <parameters xmi:id="_TG2D1V3vEeSLLqL_GZocFQ" name="studentName">
-        <modelElement href="MVCFacto.uml#_S_68cF3vEeSLLqL_GZocFQ"/>
-        <type xmi:id="_TG2D1l3vEeSLLqL_GZocFQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-      <parameters xmi:id="_TG2D113vEeSLLqL_GZocFQ" name="studentRollNo">
-        <modelElement href="MVCFacto.uml#_S_68cV3vEeSLLqL_GZocFQ"/>
-        <type xmi:id="_TG2D2F3vEeSLLqL_GZocFQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TFHlgF3vEeSLLqL_GZocFQ" name="StudentController" associationsOut="_TE90gF3vEeSLLqL_GZocFQ _TFG-cF3vEeSLLqL_GZocFQ">
     <modelElement href="MVCFacto.uml#_S_eQgF3vEeSLLqL_GZocFQ"/>
-    <visualProperties xmi:id="_TFHlgV3vEeSLLqL_GZocFQ" position="-155.0,225.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_TFHlgV3vEeSLLqL_GZocFQ" position="122.0,403.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_TFHlgl3vEeSLLqL_GZocFQ" label="+"/>
     <attributes xmi:id="_TFHlg13vEeSLLqL_GZocFQ" name="model">
       <modelElement href="MVCFacto.uml#_TAuNsF3vEeSLLqL_GZocFQ"/>
-      <stereotypes xmi:id="_TFHlhF3vEeSLLqL_GZocFQ" name="LegacyStyledElement">
+      <stereotypes xmi:id="_H-y9oF55EeS44IawLKca5A" name="LegacyStyledElement">
         <modelElement href="MVCFacto.uml#_TAvb0F3vEeSLLqL_GZocFQ"/>
       </stereotypes>
-      <stereotypes xmi:id="_TFFJQl3vEeSLLqL_GZocFQ" name="LegacyStyledElement">
+      <stereotypes xmi:id="_ggkZcGAdEeSqM97VBBXFYw" name="LegacyStyledElement">
         <modelElement href="MVCFacto.uml#_TAvb0F3vEeSLLqL_GZocFQ"/>
       </stereotypes>
       <visibility xmi:id="_TFHlhV3vEeSLLqL_GZocFQ" label="-"/>
@@ -130,10 +69,10 @@
     </attributes>
     <attributes xmi:id="_TFHliF3vEeSLLqL_GZocFQ" name="view">
       <modelElement href="MVCFacto.uml#_TAwp8F3vEeSLLqL_GZocFQ"/>
-      <stereotypes xmi:id="_TFHliV3vEeSLLqL_GZocFQ" name="LegacyStyledElement">
+      <stereotypes xmi:id="_H-2A8F55EeS44IawLKca5A" name="LegacyStyledElement">
         <modelElement href="MVCFacto.uml#_TAx4EF3vEeSLLqL_GZocFQ"/>
       </stereotypes>
-      <stereotypes xmi:id="_TFHlil3vEeSLLqL_GZocFQ" name="LegacyStyledElement">
+      <stereotypes xmi:id="_ggoD0GAdEeSqM97VBBXFYw" name="LegacyStyledElement">
         <modelElement href="MVCFacto.uml#_TAx4EF3vEeSLLqL_GZocFQ"/>
       </stereotypes>
       <visibility xmi:id="_TFHli13vEeSLLqL_GZocFQ" label="-"/>
@@ -206,6 +145,73 @@
         <modelElement href="MVCFacto.uml#_TAdvAF3vEeSLLqL_GZocFQ"/>
         <type xmi:id="_TFIMkl3vEeSLLqL_GZocFQ" name="StudentView">
           <modelElement href="MVCFacto.uml#_S_4gMF3vEeSLLqL_GZocFQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TE0DgF3vEeSLLqL_GZocFQ" name="Student" associationsIn="_TE90gF3vEeSLLqL_GZocFQ">
+    <modelElement href="MVCFacto.uml#_S_YJ4F3vEeSLLqL_GZocFQ"/>
+    <visualProperties xmi:id="_TE0DgV3vEeSLLqL_GZocFQ" position="24.0,224.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TE0Dgl3vEeSLLqL_GZocFQ" label="+"/>
+    <attributes xmi:id="_TE0qkF3vEeSLLqL_GZocFQ" name="rollNo">
+      <modelElement href="MVCFacto.uml#_TAqjUF3vEeSLLqL_GZocFQ"/>
+      <visibility xmi:id="_TE0qkV3vEeSLLqL_GZocFQ" label="+"/>
+      <cardinality xmi:id="_TE0qkl3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_TE0qk13vEeSLLqL_GZocFQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TE0qlF3vEeSLLqL_GZocFQ" name="name">
+      <modelElement href="MVCFacto.uml#_TAsYgF3vEeSLLqL_GZocFQ"/>
+      <visibility xmi:id="_TE0qlV3vEeSLLqL_GZocFQ" label="+"/>
+      <cardinality xmi:id="_TE0qll3vEeSLLqL_GZocFQ" label="1" max="1" min="1"/>
+      <type xmi:id="_TE0ql13vEeSLLqL_GZocFQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TEGR0F3vEeSLLqL_GZocFQ" name="MVCPatternDemo">
+    <modelElement href="MVCFacto.uml#_S_EA0F3vEeSLLqL_GZocFQ"/>
+    <visualProperties xmi:id="_TEGR0V3vEeSLLqL_GZocFQ" position="153.0,123.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TEGR0l3vEeSLLqL_GZocFQ" label="+"/>
+    <operations xmi:id="_TEGR013vEeSLLqL_GZocFQ" name="main" staticOperation="true">
+      <modelElement href="MVCFacto.uml#_S_RcMF3vEeSLLqL_GZocFQ"/>
+      <visibility xmi:id="_TEG44F3vEeSLLqL_GZocFQ" label="+"/>
+      <parameters xmi:id="_TEG44V3vEeSLLqL_GZocFQ" name="args">
+        <modelElement href="MVCFacto.uml#_S_SDQF3vEeSLLqL_GZocFQ"/>
+        <type xmi:id="_TEG44l3vEeSLLqL_GZocFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TEG4413vEeSLLqL_GZocFQ" name="retriveStudentFromDatabase" staticOperation="true">
+      <modelElement href="MVCFacto.uml#_S_UfgF3vEeSLLqL_GZocFQ"/>
+      <visibility xmi:id="_TEG45F3vEeSLLqL_GZocFQ" label="-"/>
+      <outParameters xmi:id="_TEG45V3vEeSLLqL_GZocFQ">
+        <modelElement href="MVCFacto.uml#_TAXoYF3vEeSLLqL_GZocFQ"/>
+        <type xmi:id="_TEG45l3vEeSLLqL_GZocFQ" name="Student">
+          <modelElement href="MVCFacto.uml#_S_YJ4F3vEeSLLqL_GZocFQ"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TG2D0F3vEeSLLqL_GZocFQ" name="StudentView" associationsIn="_TFG-cF3vEeSLLqL_GZocFQ">
+    <modelElement href="MVCFacto.uml#_S_4gMF3vEeSLLqL_GZocFQ"/>
+    <visualProperties xmi:id="_TG2D0V3vEeSLLqL_GZocFQ" position="195.0,229.0" size="413.0,67.0"/>
+    <visibility xmi:id="_TG2D0l3vEeSLLqL_GZocFQ" label="+"/>
+    <operations xmi:id="_TG2D013vEeSLLqL_GZocFQ" name="printStudentDetails">
+      <modelElement href="MVCFacto.uml#_S_6VYF3vEeSLLqL_GZocFQ"/>
+      <visibility xmi:id="_TG2D1F3vEeSLLqL_GZocFQ" label="+"/>
+      <parameters xmi:id="_TG2D1V3vEeSLLqL_GZocFQ" name="studentName">
+        <modelElement href="MVCFacto.uml#_S_68cF3vEeSLLqL_GZocFQ"/>
+        <type xmi:id="_TG2D1l3vEeSLLqL_GZocFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TG2D113vEeSLLqL_GZocFQ" name="studentRollNo">
+        <modelElement href="MVCFacto.uml#_S_68cV3vEeSLLqL_GZocFQ"/>
+        <type xmi:id="_TG2D2F3vEeSLLqL_GZocFQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </parameters>
     </operations>
